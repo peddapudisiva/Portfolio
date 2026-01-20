@@ -1,0 +1,23 @@
+.about {
+    min-height: 100vh;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content p {
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+    line-height: 1.9;
+}
+
+.about-content p:last-child {
+    margin-bottom: 0;
+}
