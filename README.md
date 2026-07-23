@@ -9,13 +9,18 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/peddapudisiva/portfolio/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+  <a href="https://github.com/peddapudisiva/sivapeddapudi2328/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black" alt="React 18">
   <img src="https://img.shields.io/badge/Three.js-WebGL-black?logo=three.js" alt="Three.js">
   <img src="https://img.shields.io/badge/Remix-Framework-black?logo=remix" alt="Remix Framework">
   <img src="https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/n8n-Workflow%20Automation-FF6584?logo=n8n" alt="n8n Automation">
   <img src="https://img.shields.io/badge/LangChain-AI%20Agents-121011?logo=chainlink" alt="LangChain">
+</p>
+
+<p align="center">
+  🌐 <b>GitHub Pages Live Site</b>: <a href="https://peddapudisiva.github.io/sivapeddapudi2328/">https://peddapudisiva.github.io/sivapeddapudi2328/</a><br>
+  ⚡ <b>Surge Live Mirror</b>: <a href="https://sivapeddapudi2328.surge.sh">https://sivapeddapudi2328.surge.sh</a>
 </p>
 
 ---
