@@ -1,3 +1,6 @@
-kv_namespaces = [
-  { id = "MY_KV", binding="MY_KV" }
-]
+name = "sivaportfolio"
+pages_build_output_dir = "./build/client"
+compatibility_date = "2024-01-01"
+
+[vars]
+NODE_VERSION = "20"
