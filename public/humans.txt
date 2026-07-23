@@ -1,0 +1,39 @@
+__  __  __
+\ \ \ \ \/
+ \ \/\ \
+  \/  \/
+
+The humans.txt file explains the team, technology,
+and graphic assets behind this site humanstxt.org.
+
+_______________________________________________________________________________
+
+DEVELOPER | AI & ML
+
+Siva Sankara Vara Prasad Peddapudi
+AI & Machine Learning Development
+
+Tools & Frameworks:
+Python, TensorFlow, PyTorch
+n8n, LangChain, OpenAI API
+React, Three.js, Supabase
+
+github.com/peddapudisiva
+linkedin.com/in/peddapudi-siva-5781b328a
+
+_______________________________________________________________________________
+
+TECHNOLOGY | テクノロジー
+
+React
+Remix
+Three.js
+Framer Motion
+
+_______________________________________________________________________________
+
+FONTS | フォント
+
+Gotham
+IPA Gothic Regular
+Hiragino Kaku Gothic W8

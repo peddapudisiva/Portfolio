@@ -1,0 +1,56 @@
+.accomplishments {
+  width: 100%;
+  max-width: var(--maxWidthL);
+  margin: 80px auto;
+  padding: 0 var(--spaceL);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space2XL);
+}
+
+.heading {
+  margin-bottom: var(--spaceL);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spaceL);
+}
+
+.card {
+  background: color-mix(in lab, var(--backgroundLight) 8%, transparent);
+  border: 1px solid color-mix(in lab, var(--textTitle) 15%, transparent);
+  border-radius: var(--spaceS);
+  padding: var(--spaceL);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spaceS);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+  }
+}
+
+.badge {
+  font-size: var(--fontSizeBodyS);
+  font-weight: var(--fontWeightBold);
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.title {
+  font-size: var(--fontSizeHeadingS);
+  color: var(--textTitle);
+  margin: 0;
+}
+
+.description {
+  font-size: var(--fontSizeBodyM);
+  color: var(--textBody);
+  line-height: 1.6;
+  margin: 0;
+}

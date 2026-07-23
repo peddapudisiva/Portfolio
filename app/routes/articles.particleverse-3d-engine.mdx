@@ -1,0 +1,25 @@
+---
+title: 'Building a 100,000 Particle Engine at 60 FPS with Three.js & Custom Shaders'
+abstract: How I designed ParticleVerse Studio using Three.js, React Three Fiber, custom GLSL shaders, and Zustand state management to morph 100,000 real-time particles.
+date: '2026-07-15'
+banner: /static/modern-styling-in-react-banner.jpg
+featured: true
+---
+
+# Introduction to ParticleVerse Studio
+
+Rendering high-density particle systems in web browsers while maintaining a fluid 60 FPS frame rate requires efficient GPU compute shaders and optimized scene graph management.
+
+In **ParticleVerse Studio**, I built an interactive 3D particle engine capable of rendering up to **100,000 particles** simultaneously in WebGL.
+
+## Key Technologies Used
+
+- **Three.js & React Three Fiber (R3F)**: Declarative WebGL rendering loop.
+- **Custom GLSL Shaders**: Vertex and fragment shaders executing particle position morphs directly on the GPU.
+- **Zustand State Management**: Lightweight zero-boilerplate state transitions between 17 geometric shape configurations.
+
+## Performance Optimization Highlights
+
+1. **Instanced Buffer Geometry**: Reduced draw calls from 100,000 to just **1 single draw call**.
+2. **GPU Attribute Interpolation**: Calculated morphing vectors inside vertex shaders to prevent CPU bottlenecking.
+3. **Webcam Integration**: Embedded real-time webcam brightness data to modulate particle field intensity dynamically.
